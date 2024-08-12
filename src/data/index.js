@@ -63,7 +63,7 @@ const projects = [
   },
   {
     title: "Portfolio Website",
-    link: "https://www.darien-ford.com",
+    link: "https://github.com/Darien-Ford/Portfolio_Website",
     image: websiteScreenshot,
     info: [
       "I created this portfolio/resume website using the React framework and Set up auto-deployment to Hostinger from a repository using GitHub actions.",
