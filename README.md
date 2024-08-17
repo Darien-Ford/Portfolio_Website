@@ -1,8 +1,11 @@
-# React + Vite
+# ReactJS Portfolio Website
+![darien-ford.com Website Thumbnail](https://darien-ford.com/assets/Screenshot-C9-Ba2QW.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+This is a public repository for my portfolio website (darien-ford.com), which I built using React and Vite and hosted through Hostinger with auto-deployment from GitHub. This repository was created only to showcase the code behind the website, as the actual website is built from a private repository. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- React: JavaScript library for building the user interface.
+- Vite: Build tool for project structure and boilerplate code.
+- Hostinger: Platform for web hosting with auto-deployment.
+- GitHub: Platform for code management, version control, and CI/CD.
