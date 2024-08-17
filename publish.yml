@@ -1,5 +1,6 @@
 # This file is not functional in this repository and is only for display
-# This is a copy of the .yml file used in my private repository for auto-deployment to Hostinger
+# This is a copy of the .yml file used in my private repository for auto-deployment to Hostinger using GitHub actions
+# For this file to work as a GitHub action, it would have to be added to a .github/workflows file inside the repository
 
 name: Generate a build and push to another branch
 
