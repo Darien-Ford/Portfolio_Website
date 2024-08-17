@@ -53,12 +53,16 @@ const Experience = () => {
           <div className="container">
             <div className="education-info">
               <div className="card">
-                <a href="https://engineering.msu.edu/about/departments/cse">
+                <a
+                  href="https://engineering.msu.edu/about/departments/cse"
+                  target="_blank"
+                >
                   <img
                     className="msu-logo"
                     src={msuLogo}
                     width="auto"
                     height="120px"
+                    title="MSU College of Engineering - CSE"
                   />
                 </a>
               </div>
@@ -80,33 +84,66 @@ const Experience = () => {
         <div className="skills">
           <div className="container">
             <div className="card">
-              <a href="https://en.cppreference.com/w/cpp">
-                <img src={cppLogo} width="auto" height="80px" />
+              <a href="https://en.cppreference.com/w/cpp" target="_blank">
+                <img
+                  src={cppLogo}
+                  width="auto"
+                  height="80px"
+                  title="cppreference.com"
+                />
               </a>
             </div>
             <div className="card">
-              <a href="https://en.cppreference.com/w/c">
-                <img src={cLogo} width="auto" height="80px" />
+              <a href="https://en.cppreference.com/w/c" target="_blank">
+                <img
+                  src={cLogo}
+                  width="auto"
+                  height="80px"
+                  title="cppreference.com/C"
+                />
               </a>
             </div>
             <div className="card">
-              <a href="https://www.python.org/">
-                <img src={pythonLogo} width="auto" height="80px" />
+              <a href="https://www.python.org/" target="_blank">
+                <img
+                  src={pythonLogo}
+                  width="auto"
+                  height="80px"
+                  title="python.org"
+                />
               </a>
             </div>
             <div className="card">
-              <a href="https://en.wikipedia.org/wiki/SQL">
-                <img src={sqlLogo} width="auto" height="70px" />
+              <a href="https://en.wikipedia.org/wiki/SQL" target="_blank">
+                <img
+                  src={sqlLogo}
+                  width="auto"
+                  height="70px"
+                  title="SQL Wikipedia"
+                />
               </a>
             </div>
             <div className="card">
-              <a href="https://www.linux.org/">
-                <img src={linuxLogo} width="auto" height="80px" />
+              <a href="https://www.linux.org/" target="_blank">
+                <img
+                  src={linuxLogo}
+                  width="auto"
+                  height="80px"
+                  title="linux.org"
+                />
               </a>
             </div>
             <div className="card">
-              <a href="https://www.microsoft.com/en-us/windows?r=1">
-                <img src={windowsLogo} width="auto" height="70px" />
+              <a
+                href="https://www.microsoft.com/en-us/windows?r=1"
+                target="_blank"
+              >
+                <img
+                  src={windowsLogo}
+                  width="auto"
+                  height="70px"
+                  title="microsoft.com"
+                />
               </a>
             </div>
           </div>

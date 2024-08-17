@@ -1,4 +1,8 @@
-import { capstoneScreenshot, websiteScreenshot } from "../components/assets";
+import {
+  capstoneScreenshot,
+  websiteScreenshot,
+  designDay,
+} from "../components/assets";
 
 const career = [
   {
@@ -56,6 +60,9 @@ const projects = [
     title: "Mobile Train Handling Simulator",
     link: "http://www.capstone.cse.msu.edu/2022-08/projects/union-pacific/",
     image: capstoneScreenshot,
+    caption: "The Capstone Experience - Team Union Pacific",
+    pdf: designDay,
+    pdfCaption: "Design Day PDF",
     info: [
       "In Michigan State University's computer science capstone course, I led a team of six students to design and build a Mobile Train Handling Simulator for the Union Pacific Railroad Company. Following the Agile methodology throughout the semester, we created the Mobile Train Handling Simulator as a convenient training alternative to the expensive and proprietary equipment currently used by locomotive crews.",
       "The mobile simulator was created for a Microsoft Surface Tablet and implemented with C# using the Unity game engine, Microsoft's .NET framework on Windows, and an API for PS Technology's proprietary train-physics engine.",
@@ -65,10 +72,16 @@ const projects = [
     title: "Portfolio Website",
     link: "https://github.com/Darien-Ford/Portfolio_Website",
     image: websiteScreenshot,
+    caption: "View Website Source Code",
     info: [
       "I created this portfolio/resume website using the React framework and Set up auto-deployment to Hostinger from a repository using GitHub actions.",
     ],
   },
 ];
 
-export { career, education, projects };
+const about = [
+  "I'm a computer science graduate from Michigan State University who is motivated by new technologies and interested in solving complex problems.",
+  "I have recently worked as an application engineer at Kawasaki Robotics, where I consulted with systems integrators and end-users to create automation solutions for different general industry applications using Kawasaki robots.",
+];
+
+export { career, education, projects, about };

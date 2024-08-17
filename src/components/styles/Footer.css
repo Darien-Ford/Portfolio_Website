@@ -5,7 +5,6 @@
   border-top: 3px solid var(--secondary-color);
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .credits {
@@ -13,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  width: 50vw;
 }
 
 .credits h4 {
@@ -28,11 +28,39 @@
   width: auto;
   padding: 0 1rem 0 1rem;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.technologies {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hosting {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.technologies ul {
+  display: flex;
+  align-items: center;
+}
+
+.technologies li {
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes logo-spin {
@@ -45,7 +73,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(1) .logo {
+  .technologies li:nth-of-type(1) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
@@ -71,7 +99,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(1) .logo {
+  .technologies li:nth-of-type(1) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
@@ -83,5 +111,21 @@
   }
   .footer h4 {
     font-size: 18px;
+    padding-bottom: 0.5rem;
+  }
+  .credits {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .technologies {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hosting {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

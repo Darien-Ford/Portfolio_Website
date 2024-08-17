@@ -1,0 +1,38 @@
+.about {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+.about .content {
+  margin-top: 4rem;
+  width: 65%;
+  padding: 2rem;
+  align-items: left;
+  border: 5px solid var(--secondary-color);
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px black;
+  background-color: var(--box-background);
+}
+
+.about .content h4 {
+  font-size: 30px;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .about .content {
+    width: 85%;
+    padding: 1rem;
+  }
+
+  .about .content h4 {
+    font-size: 18px;
+  }
+}

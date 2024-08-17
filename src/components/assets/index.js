@@ -13,6 +13,8 @@ import linuxLogo from "./linux.png";
 import windowsLogo from "./windows.png";
 import capstoneScreenshot from "./capstone.png";
 import websiteScreenshot from "./Screenshot.png";
+import resumeIcon from "./download-resume-icon.png";
+import designDay from "./Design_Day.pdf";
 
 export {
   blackLogo,
@@ -30,4 +32,6 @@ export {
   windowsLogo,
   capstoneScreenshot,
   websiteScreenshot,
+  resumeIcon,
+  designDay,
 };
