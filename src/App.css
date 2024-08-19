@@ -2,34 +2,14 @@
 
 .app {
   overflow: hidden;
-  background-color: var(--background-dark);
-  background-image: linear-gradient(
-      180deg,
-      transparent,
-      transparent,
-      transparent,
-      transparent,
-      transparent,
-      transparent,
-      black,
-      black,
-      transparent,
-      transparent,
-      transparent,
-      transparent,
-      transparent,
-      transparent,
-      transparent,
-      transparent,
-      transparent
-    ),
-    url("./components/assets/hero2.jpg"), url("./components/assets/hero1.jpg");
-  background-position: top, bottom;
-  background-size: auto;
-  background-repeat: no-repeat;
+  background-color: black;
+  background-image: url("./components/assets/background.png");
+  background-position: top, 2000px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 800px) {
   .app {
     background-size: auto;
   }
